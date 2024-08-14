@@ -1,0 +1,201 @@
+/* note global style is compulsory  */
+/* begin global style  */
+:root {
+  --verify-bg: #1d2896;
+}
+.title-text {
+  font-size: 40px;
+}
+.text-danger {
+  color: red !important;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto, arial;
+}
+.doverify-verificatoin-container {
+  max-width: 430px;
+  margin: auto;
+  background-color: var(--verify-bg);
+}
+.doverify-verificatoin .logo {
+  margin-left: 30px;
+  width: 170px;
+} 
+.doverify-verificatoin button {
+  background: none;
+  border: none;
+  color: #fff;
+}
+.doverify-verificatoin button i {
+  font-size: 25px;
+}
+.verify-icon {
+  width: 70px;
+  height:70px;
+  background-color: #3ace4f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.verify-icon i {
+  font-size: 50px;
+  color: #fff;
+}
+.product-details {
+  background: #fff;
+  border-radius: 30px 30px 0px 0px;;
+}.product-detail-menu-container {
+  padding: 15px 20px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.product-detail-menu-container button {
+  width: 70px;
+  border: none;
+  background: none;
+}
+.product-detail-menu-container button:hover i {
+  color: #3ace4f;
+}
+.product-detail-menu-container .location-menu:hover span  {
+  background-color: #3ace4f;
+}
+.product-detail-menu-container .location-menu:hover i {
+  color: #fff !important;
+}
+.product-detail-menu-container button i {
+  font-size: 25px;
+}
+.product-detail-menu-container .product-info-menu i {
+  font-size: 38px;
+  color: #23215c;
+}
+.product-detail-menu-container .product-img-menu i {
+  font-size: 38px;
+  color: #23215c;
+}
+.product-detail-menu-container .location-icon{
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: #23215c;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 20px;
+  color: #fff;
+}
+.product-detail-item >div h5 {
+  color: #23215c;
+  font-size: 30px;
+}
+.product-detail-item >div .info-name p {
+  font-weight: bold;
+  color: var(--verify-bg);
+} 
+.doverify-varificaton-footer {
+  background: #fff;
+  padding: 2px 0px;
+  border-top: 1px solid #dbdbdb;
+}
+.doverify-varificaton-footer button {
+  background: var(--verify-bg);
+  border: none;
+  color: #fff;
+  padding: 2px 20px;
+  border-radius: 20px;
+}
+.total-scan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.total-scan span{
+  font-size: 8px;
+  background-color: red;
+  display: flex;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1px;
+  cursor: pointer;
+}
+.sold button {
+  border: none;
+  background: #337ab7;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 6px;
+  gap: 6rem;
+  border-radius: 3px;
+  color: white;
+}
+.sold button .sub {
+  padding: 2px 4px;
+  background: #5cb85c;
+  font-size: 9px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.sold button .sub span {
+  background: #fff;
+  color: #5cb85c;
+  font-size: 8px;
+  border-radius: 50%;
+  display: flex;
+  width: 11px;
+  height: 11px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1px;
+}
+.sold button .sold-sold {
+  color: red;
+  font-weight: bold;
+}
+/* end global style  */
+/* begin  product is not sold  */
+.doverify-verificatoin-container-err {
+  max-width: 430px;
+  margin: auto;
+  background-color: var(--verify-bg);
+}
+.doverify-verificatoin-container-err .verify-icon {
+  background: red;
+}
+.doverify-verificatoin-container-err .verify-icon i {
+  color: #1d2896;
+}
+.doverify-verificatoin-container-err .location-icon {
+  background-color: red;
+}
+.doverify-verificatoin-container-err .location-menu:hover span {
+  background-color: red;
+}
+/* end  product is not sold  */
+/* begin product does't match  */
+.doverify-contact {
+  padding: 10px 10px;
+}
+.doverify-contact .email {
+ width: 40px;
+ height: 40px;
+ background-color: #23215c;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #fff;
+ border-radius: 50%;
+}
+.doverify-contact i {
+  font-size: 20px;
+}
+/* end product does't match  */
