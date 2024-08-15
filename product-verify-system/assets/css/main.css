@@ -16,6 +16,8 @@ body {
 }
 .doverify-verificatoin-container {
   max-width: 430px;
+  height: 100vh;
+  overflow-y: scroll;
   margin: auto;
   background-color: var(--verify-bg);
 }
