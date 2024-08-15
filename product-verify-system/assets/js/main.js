@@ -56,7 +56,7 @@ function hideShowButton() {
   hideShowItem.style.marginTop ="36rem";
  }
  else{
-  hideShowItem.style.marginTop ="0px"
+  hideShowItem.style.marginTop =""
   console.log("err")
  }
   
