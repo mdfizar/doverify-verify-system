@@ -62,12 +62,10 @@ body {
   bottom: -37px;
   right: 28px;
   font-size: 20px !important;
+  display: none;
 }
-.product-detail-menu-container button:hover i {
-  color: #3ace4f;
-}
-.product-detail-menu-container .location-menu:hover span  {
-  background-color: #3ace4f;
+.product-detail-menu-container button .arrow3 {
+  right: 34px;
 }
 .product-detail-menu-container .location-menu:hover .location {
   color: #fff !important;
@@ -77,12 +75,13 @@ body {
 }
 .product-detail-menu-container .product-info-menu i {
   font-size: 38px;
-  color: #23215c;
+  /* color: #23215c; */
 }
 .product-detail-menu-container .product-img-menu i {
   font-size: 38px;
-  color: #23215c;
+  
 }
+
 .product-detail-menu-container .location-icon{
   display: flex;
   width: 30px;
