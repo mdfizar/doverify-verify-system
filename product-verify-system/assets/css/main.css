@@ -55,6 +55,13 @@ body {
   width: 70px;
   border: none;
   background: none;
+  position: relative;
+}
+.product-detail-menu-container button .arrow {
+  position: absolute;
+  bottom: -37px;
+  right: 28px;
+  font-size: 20px !important;
 }
 .product-detail-menu-container button:hover i {
   color: #3ace4f;
@@ -62,10 +69,10 @@ body {
 .product-detail-menu-container .location-menu:hover span  {
   background-color: #3ace4f;
 }
-.product-detail-menu-container .location-menu:hover i {
+.product-detail-menu-container .location-menu:hover .location {
   color: #fff !important;
 }
-.product-detail-menu-container button i {
+.product-detail-menu-container button .location {
   font-size: 25px;
 }
 .product-detail-menu-container .product-info-menu i {
@@ -104,8 +111,8 @@ body {
   background: var(--verify-bg);
   border: none;
   color: #fff;
-  padding: 2px 20px;
-  border-radius: 20px;
+  padding: 15px 45px;
+  border-radius: 11px;
 }
 .total-scan {
   display: flex;
