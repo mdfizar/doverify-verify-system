@@ -52,12 +52,11 @@ function productLocaiton() {
 const hideShowItem = document.querySelector(".product-details");
 const hideShowItemIcon = document.querySelector(".product-details i");
 function hideShowButton() {
- if(hideShowItem.style.marginTop ==="") {
+ if(hideShowItem.style.marginTop ==="0px") {
   hideShowItem.style.marginTop ="36rem";
  }
  else{
-  hideShowItem.style.marginTop =""
-  console.log("err")
+  hideShowItem.style.marginTop ="0px"
  }
   
 }
