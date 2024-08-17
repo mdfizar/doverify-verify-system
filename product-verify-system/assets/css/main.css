@@ -4,7 +4,8 @@
   --verify-bg: #1d2896;
 }
 .title-text {
-  font-size: 40px;
+  font-size: 36px;
+  font-weight: 700;
 }
 .text-danger {
   color: red !important;
@@ -13,13 +14,18 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: roboto, arial;
+  height: 100vh;
 }
 .doverify-verificatoin-container {
   max-width: 430px;
-  height: 100vh;
-  overflow-y: scroll;
+  height: 100%;
+  overflow-y: hidden;
+  padding-bottom: 57px;
   margin: auto;
   background-color: var(--verify-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .doverify-verificatoin .logo {
   margin-left: 30px;
@@ -34,8 +40,8 @@ body {
   font-size: 25px;
 }
 .verify-icon {
-  width: 70px;
-  height:70px;
+  width: 111px;
+  height:111px;
   background-color: #3ace4f;
   border-radius: 50%;
   display: flex;
@@ -113,13 +119,18 @@ body {
   padding: 20px;
   color: #fff;
 }
+.product-detail-item {
+  height: 400px;
+  overflow-Y: scroll;
+}
 .product-detail-item >div h5 {
   color: #23215c;
-  font-size: 30px;
+  font-size:20px;
 }
 .product-detail-item >div .info-name p {
-  font-weight: bold;
+  font-weight: 500;
   color: var(--verify-bg);
+  font-size: 16px;
 } 
 .doverify-varificaton-footer {
   background: #fff;

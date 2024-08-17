@@ -8,13 +8,13 @@ var downThree = document.querySelector(".arrow3")
 var btnOne = document.querySelector(".product-info-menu");
 var btnTwo = document.querySelector(".product-img-menu");
 var btnThree = document.querySelector(".location-menu");
-downOne.style.display ="block";
-btnOne.style.color ="#3ace4f";
+downThree.style.display ="block";
+btnThree.style.color ="red";
 function productInfo() {
   productinfo.style.display ="block";
   productimg.style.display ="none";
   productlocation.style.display ="none"
-  btnOne.style.color ="#3ace4f";
+  btnOne.style.color ="red";
   btnTwo.style.color ="#23215c";
   btnThree.style.color ="#23215c";
   locationIcon.style.backgroundColor ="#23215c"
@@ -28,7 +28,7 @@ function productImg() {
   productimg.style.display ="block";
   productlocation.style.display ="none"
   btnOne.style.color ="#23215c";
-  btnTwo.style.color ="#3ace4f";
+  btnTwo.style.color ="red";
   btnThree.style.color ="#23215c";
   locationIcon.style.backgroundColor ="#23215c"
   downOne.style.display ="none";
@@ -42,8 +42,8 @@ function productLocaiton() {
   productlocation.style.display ="block"
   btnOne.style.color ="#23215c";
   btnTwo.style.color ="#23215c";
-  btnThree.style.color ="#3ace4f";
-  locationIcon.style.backgroundColor ="#3ace4f"
+  btnThree.style.color ="red";
+  locationIcon.style.backgroundColor ="red"
   downOne.style.display ="none";
   downTwo.style.display ="none";
   downThree.style.display ="block";
