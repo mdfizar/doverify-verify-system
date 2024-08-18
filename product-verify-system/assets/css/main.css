@@ -182,7 +182,7 @@ body {
 }
 .sold button {
   border: none;
-  background: #337ab7;
+  background: #f4efd7;
   display: flex;
   align-items: center;
   width: 100%;
@@ -219,7 +219,7 @@ body {
 /* end global style  */
 /* begin  product is not sold  */
 .product-sold-container {
-  /* display: none; */
+  display: block;
 }
 .product-sold-container {
   max-width: 430px;
@@ -251,7 +251,7 @@ body {
 /* end  product is not sold  */
 /* begin product does't match  */
 .noproduct-container {
-  /* display: none; */
+  display: block
 }
 .no-product-container {
   max-width: 430px;
