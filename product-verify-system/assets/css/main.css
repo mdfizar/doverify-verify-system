@@ -236,7 +236,7 @@ body {
   background-color: red;
 }
 .product-sold-container .sold button{
-  background-color: #f4efd7;
+  background-color: #f4efd7 !important;
 }
 .product-sold-container .sold p {
   font-size: 16px;
