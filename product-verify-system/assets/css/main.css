@@ -235,6 +235,12 @@ body {
 .product-sold-container .location-icon {
   background-color: red;
 }
+.product-sold-container .sold button{
+  background-color: #f4efd7;
+}
+.product-sold-container .sold p {
+  font-size: 16px;
+}
 .product-sold-container .location-menu:hover span {
   background-color: red;
 }
